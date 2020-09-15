@@ -19,7 +19,7 @@ type TapeRecorder struct {
 }
 
 func (t TapeRecorder) Play(song string) {
-	fmt.println("Playing", song)
+	fmt.Println("Playing", song)
 }
 
 func (t TapeRecorder) Stop() {
