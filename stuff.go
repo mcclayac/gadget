@@ -26,3 +26,6 @@ func (t TapeRecorder) Stop() {
 	fmt.Println("Stopped!!")
 }
 
+func (t TapeRecorder) Record() {
+	fmt.Println("Recording Songs")
+}
